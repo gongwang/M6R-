@@ -181,13 +181,13 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\FastAction\FastData.csproj">
+      <Project>{d496620b-1914-4416-b1f0-eae2f270dd43}</Project>
+      <Name>FastData</Name>
+    </ProjectReference>
     <ProjectReference Include="..\FastCtr\FastCtr.csproj">
       <Project>{2369500c-fa86-4db8-8966-642ede9b44c9}</Project>
       <Name>FastCtr</Name>
-    </ProjectReference>
-    <ProjectReference Include="DataAction\DataAction\DataAction.csproj">
-      <Project>{451b79ea-b19f-4d26-8c68-7a6f69f7ca57}</Project>
-      <Name>DataAction</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
