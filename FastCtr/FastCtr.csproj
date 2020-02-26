@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2369500C-FA86-4DB8-8966-642EDE9B44C9}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>FastCtr</RootNamespace>
+    <AssemblyName>FastCtr</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CIPCompolet, Version=1.3.1.0, Culture=neutral, PublicKeyToken=f3505d5782c23c5d">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\OMRON\CX-Compolet\assembly\CIPCompolet.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ANDweigh.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ANDweigh.Designer.cs">
+      <DependentUpon>ANDweigh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CpkBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CpkBox.Designer.cs">
+      <DependentUpon>CpkBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExpShow.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ExpShow.Designer.cs">
+      <DependentUpon>ExpShow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MenuButton.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MenuButton.designer.cs">
+      <DependentUpon>MenuButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NewSerialPort.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="NewSerialPort.Designer.cs">
+      <DependentUpon>NewSerialPort.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OmroPlcMultiVar.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="OmroPlcMultiVar.Designer.cs">
+      <DependentUpon>OmroPlcMultiVar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OmroPLCvar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="TaskActionCtr.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TaskFrameControlBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TaskFrameControlBox.designer.cs">
+      <DependentUpon>TaskFrameControlBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TaskFrameCtr.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TaskFrameCtr.Designer.cs">
+      <DependentUpon>TaskFrameCtr.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TaskFrameGlobal.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TaskFrameGlobal.Designer.cs">
+      <DependentUpon>TaskFrameGlobal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TaskFrameUI.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TaskFrameUI.Designer.cs">
+      <DependentUpon>TaskFrameUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="userChart.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="userChart.designer.cs">
+      <DependentUpon>userChart.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VariablesCtr.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="VariablesCtr.designer.cs">
+      <DependentUpon>VariablesCtr.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VarStructure.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ANDweigh.resx">
+      <DependentUpon>ANDweigh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CpkBox.resx">
+      <DependentUpon>CpkBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExpShow.resx">
+      <DependentUpon>ExpShow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="menuButton.resx">
+      <DependentUpon>MenuButton.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewSerialPort.resx">
+      <DependentUpon>NewSerialPort.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OmroPlcMultiVar.resx">
+      <DependentUpon>OmroPlcMultiVar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TaskActionCtr.resx">
+      <DependentUpon>TaskActionCtr.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TaskFrameControlBox.resx">
+      <DependentUpon>TaskFrameControlBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TaskFrameCtr.resx">
+      <DependentUpon>TaskFrameCtr.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TaskFrameGlobal.resx">
+      <DependentUpon>TaskFrameGlobal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TaskFrameUI.resx">
+      <DependentUpon>TaskFrameUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="userChart.resx">
+      <DependentUpon>userChart.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\FastAction\FastData.csproj">
+      <Project>{d496620b-1914-4416-b1f0-eae2f270dd43}</Project>
+      <Name>FastData</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SampleForm\CodeEditor.csproj">
+      <Project>{ee334879-2bff-441a-a203-247271013db1}</Project>
+      <Name>CodeEditor</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
