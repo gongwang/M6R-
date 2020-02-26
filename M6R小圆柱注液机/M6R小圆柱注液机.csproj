@@ -33,14 +33,18 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="CIPCompolet, Version=1.3.1.0, Culture=neutral, PublicKeyToken=f3505d5782c23c5d">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\packages\CIPCompolet.dll</HintPath>
+    </Reference>
     <Reference Include="EPPlus">
-      <HintPath>..\packages\EPPlus.4.5.3.1\lib\net40\EPPlus.dll</HintPath>
+      <HintPath>bin\Debug\packages\EPPlus.4.5.3.1\lib\net40\EPPlus.dll</HintPath>
     </Reference>
     <Reference Include="HslCommunication">
-      <HintPath>..\packages\HslCommunication.6.2.2\lib\net451\HslCommunication.dll</HintPath>
+      <HintPath>bin\Debug\packages\HslCommunication.6.2.2\lib\net451\HslCommunication.dll</HintPath>
     </Reference>
     <Reference Include="MySql.Data">
-      <HintPath>..\packages\MySql.Data.6.9.12\lib\net45\MySql.Data.dll</HintPath>
+      <HintPath>bin\Debug\packages\MySql.Data.6.9.12\lib\net45\MySql.Data.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
