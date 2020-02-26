@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M6R小圆柱注液机", "M6R小圆柱注液机\M6R小圆柱注液机.csproj", "{8555E9FF-B0A9-4D54-9E71-2F28099C86C6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAction", "M6R小圆柱注液机\DataAction\DataAction\DataAction.csproj", "{451B79EA-B19F-4D26-8C68-7A6F69F7CA57}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FastCtr", "FastCtr\FastCtr.csproj", "{2369500C-FA86-4DB8-8966-642EDE9B44C9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,8 +23,15 @@ Global
 		{451B79EA-B19F-4D26-8C68-7A6F69F7CA57}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{451B79EA-B19F-4D26-8C68-7A6F69F7CA57}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{451B79EA-B19F-4D26-8C68-7A6F69F7CA57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2369500C-FA86-4DB8-8966-642EDE9B44C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2369500C-FA86-4DB8-8966-642EDE9B44C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2369500C-FA86-4DB8-8966-642EDE9B44C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2369500C-FA86-4DB8-8966-642EDE9B44C9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A49A0936-6D92-4AB5-AF18-EA36041ED3FD}
 	EndGlobalSection
 EndGlobal

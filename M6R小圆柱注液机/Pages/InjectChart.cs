@@ -105,10 +105,7 @@ namespace VisionFram3
         private void 图表界面_Load(object sender, EventArgs e)
         {
             userChart1.InitChartset();
-            Program.FormChart.userChart1.MinY = FormMain.zhuye_min - 0.1;
-            Program.FormChart.userChart1.MaxY = FormMain.zhuye_max + 0.1;
-            Program.FormChart.userChart1.DownValue = (float)FormMain.zhuye_min;
-            Program.FormChart.userChart1.UpValue = (float)FormMain.zhuye_max;
+          
         }
         private void button1_Click(object sender, EventArgs e)
         {

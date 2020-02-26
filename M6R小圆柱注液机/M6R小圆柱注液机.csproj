@@ -180,7 +180,16 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\FastCtr\FastCtr.csproj">
+      <Project>{2369500c-fa86-4db8-8966-642ede9b44c9}</Project>
+      <Name>FastCtr</Name>
+    </ProjectReference>
+    <ProjectReference Include="DataAction\DataAction\DataAction.csproj">
+      <Project>{451b79ea-b19f-4d26-8c68-7a6f69f7ca57}</Project>
+      <Name>DataAction</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
