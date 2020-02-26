@@ -78,12 +78,6 @@
     <Compile Include="NewSerialPort.Designer.cs">
       <DependentUpon>NewSerialPort.cs</DependentUpon>
     </Compile>
-    <Compile Include="OmroPlcMultiVar.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="OmroPlcMultiVar.Designer.cs">
-      <DependentUpon>OmroPlcMultiVar.cs</DependentUpon>
-    </Compile>
     <Compile Include="OmroPLCvar.cs">
       <SubType>Component</SubType>
     </Compile>
@@ -122,9 +116,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="NewSerialPort.resx">
       <DependentUpon>NewSerialPort.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="OmroPlcMultiVar.resx">
-      <DependentUpon>OmroPlcMultiVar.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
