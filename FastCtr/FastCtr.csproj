@@ -93,33 +93,6 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <Compile Include="TaskActionCtr.cs">
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Include="TaskFrameControlBox.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="TaskFrameControlBox.designer.cs">
-      <DependentUpon>TaskFrameControlBox.cs</DependentUpon>
-    </Compile>
-    <Compile Include="TaskFrameCtr.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="TaskFrameCtr.Designer.cs">
-      <DependentUpon>TaskFrameCtr.cs</DependentUpon>
-    </Compile>
-    <Compile Include="TaskFrameGlobal.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="TaskFrameGlobal.Designer.cs">
-      <DependentUpon>TaskFrameGlobal.cs</DependentUpon>
-    </Compile>
-    <Compile Include="TaskFrameUI.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="TaskFrameUI.Designer.cs">
-      <DependentUpon>TaskFrameUI.cs</DependentUpon>
-    </Compile>
     <Compile Include="userChart.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -156,21 +129,6 @@
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
-    <EmbeddedResource Include="TaskActionCtr.resx">
-      <DependentUpon>TaskActionCtr.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="TaskFrameControlBox.resx">
-      <DependentUpon>TaskFrameControlBox.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="TaskFrameCtr.resx">
-      <DependentUpon>TaskFrameCtr.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="TaskFrameGlobal.resx">
-      <DependentUpon>TaskFrameGlobal.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="TaskFrameUI.resx">
-      <DependentUpon>TaskFrameUI.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="userChart.resx">
       <DependentUpon>userChart.cs</DependentUpon>
