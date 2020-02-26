@@ -177,7 +177,7 @@
             this.btnChart.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnChart.Image = ((System.Drawing.Image)(resources.GetObject("btnChart.Image")));
             this.btnChart.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnChart.Location = new System.Drawing.Point(413, 6);
+            this.btnChart.Location = new System.Drawing.Point(414, 6);
             this.btnChart.Name = "btnChart";
             this.btnChart.Size = new System.Drawing.Size(63, 69);
             this.btnChart.TabIndex = 1;
